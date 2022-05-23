@@ -1,0 +1,35 @@
+@media screen and (max-width:768px) {
+    /* Heading */
+    .navbar-collapse{
+        background-color: #fff;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        color: #35a22c !important;
+    }
+    .menu li{
+        padding: 0 10px;
+        
+        margin: 0 !important;
+    }
+    .menu li:hover{
+        background-color: #35a22c;
+        
+    }
+
+    .navbar-dark .navbar-nav .nav-item .nav-link{
+        transition: all .5s;
+    }
+
+    .navbar-dark .navbar-nav .nav-item:hover .nav-link{
+        color: #fff !important;
+    }
+
+    .menu li.active::after{
+        width: 0;
+    }
+
+    .menu li:hover:after{
+        width: 0;
+    }
+}
