@@ -1,5 +1,11 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:576px){
+    #education .education_bg{
+        background-size: cover;
+    }
+}
+@media screen and (max-width:992px) {
     /* Heading */
+    
     .navbar-collapse{
         background-color: #fff;
     }
